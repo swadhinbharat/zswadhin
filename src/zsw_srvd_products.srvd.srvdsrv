@@ -1,0 +1,4 @@
+@EndUserText.label: 'Products'
+define service ZSW_SRVD_Products {
+  expose ZCE_Product_via_RFC as Product;
+}
